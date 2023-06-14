@@ -1,0 +1,191 @@
+body{
+  margin: 0;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-container{
+  background-color: #c687ce;
+  padding-top: 100px;
+
+}
+
+.image1{
+  height: 300px;
+  width: 500;
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+.hey{
+  margin: 0;
+  color: white;
+  font-family: "georgia", serif;
+  font-size: 60px;
+
+}
+
+.name{
+  margin: 0;
+  color: black;
+  font-family: "georgia", serif;
+  font-size: 30px;
+
+}
+h1{
+  margin: 0;
+  color: white;
+  font-family: "georgia", serif;
+  font-size: 40px;
+
+}
+.intropara{
+  margin: 0;
+  color: black;
+  font-family: "georgia", serif;
+  font-size: 30px;
+}
+
+.header-image{
+  padding-top: 20px;
+  height: 485px;
+  width: 500;
+  right: 100px;
+
+
+}
+
+hr{
+  width:50%
+}
+/**********************about me***********************/
+
+
+.aboutimg{
+    height: 300px;
+    width: 500;
+    position: absolute;
+    right: 100px;
+    top: 850px;
+  }
+
+.about-me{
+  padding-top: 0;
+  margin: 0;
+}
+
+.middle-container{
+  background-color: #b88ace;
+}
+
+.profile{
+  padding-top: 0;
+  margin: 0;
+  color: black;
+  font-family: "georgia", serif;
+
+}
+
+p{
+    font-family: "georgia", serif;
+
+}
+
+.imageskills{
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.imageskills2{
+  height: 200px;
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto ;
+  text-align: left;
+  line-height: 2;
+}
+
+h2{
+  margin: 0;
+  color: black;
+  font-family: "georgia", serif;
+  font-size: 40px;
+
+}
+
+h3{
+  color: ;
+  font-family: "georgia", serif;
+  font-size: 20px;
+}
+/***************bottom conntainer************/
+
+
+.bottom-container{
+  background-color: #d1b0e6;
+}
+.para{
+  padding-bottom: 0px;
+  padding-top: : 10px;
+}
+
+/***********button stling*****************/
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #9d63be;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
